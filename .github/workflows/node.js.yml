@@ -1,4 +1,4 @@
-# This workflow will install dependencies, run development mode, and test against multiple Node.js versions.
+# This workflow will install dependencies, run development mode temporarily, and test against multiple Node.js versions.
 
 name: Node.js CI
 
@@ -20,14 +20,28 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      # Sets up the correct Node.js version and enables dependency caching
     - name: Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+
     - name: Install dependencies
       run: npm install
-    - name: Run development mode
-      run: npm run dev
+
+    # Start the development server temporarily to ensure it starts without issues
+    - name: Run development mode temporarily
+      run: |
+        npm run dev &
+        sleep 10 # Wait 10 seconds for the server to start
+        kill %1 # Stop the server
       env:
         NODE_ENV: development
+
+    # Optionally include tests or build if needed
+    # - name: Run tests
+    #   run: npm test
+
+    # - name: Build the project
+    #   run: npm run build
