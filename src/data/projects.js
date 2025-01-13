@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     title: "Offline mobile games",
-    description: "Built several offline moblile games like 2048, tic tac toe, snake games.",
+    description: "Built several offline mobile games like 2048, tic tac toe, snake games.",
     image:a2048,
   },
   {
