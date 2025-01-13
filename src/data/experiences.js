@@ -12,7 +12,7 @@ export const experiences = [
     joined: "Sept'24",
     end: "Present",
     title: "Open Source Contributor",
-    bio: "Pursuing certifications in CCNA and Security+, while working on various full stack projects. Responsibilities include researching network security topics developing RESTful APIs and implementing user authentication systems.",
+    bio: "Pursuing certifications in CCNA and Security+, while working on various full stack projects. Focused on researching network security topics, developing RESTful APIs, and implementing user authentication systems.",
     color: blue,
   },
   {
