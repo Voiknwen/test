@@ -50,12 +50,9 @@ export const About = () => {
         <Text>
           <Paragraph>
             I'm a passionate programmer, who is always looking for new
-            challenges to improve myself, also a team player, who is always
-            ready to learn new things and help others.
-            <br /><br />
-              I was born and raised in Puducherry, India. I love to play Chess
-            and in my free time I like to read books, watch movies
-            and play video games.
+            challenges to improve myself, also a team player who is open
+            to learn new things and help others.I love to play Chess
+            in my free time.
           </Paragraph>
           <Educations>
             <AboutItem
