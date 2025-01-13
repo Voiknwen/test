@@ -11,18 +11,18 @@ export const projects = [
     image: ayush,
     github: "https://github.com/GodOfZap/Ayush/",
     description:
-      "The AYUSH Hub unites startups, investors, and government entities in a centralized platform for AYUSH projects.",
+      "The AYUSH Hub unite startups, investors, and government entities in a centralized platform for AYUSH projects.",
   },
   {
     title: "Smart Result Management System",
     description:
-      "A web application in which the user can find there marks and the teacher's can declare results.",
+      "A web application in which the user can find their marks and the teacher's can declare results.",
     image:srms,
         github: "https://github.com/GodOfZap/Student-Result-Management-System/",
   },
   {
     title: "Secure Cloud File Storage",
-    description: "Built a node CLI interface and an web app which supports most cloud platforms.",
+    description: "Built a node CLI interface and an web app which support most cloud platforms.",
     image:cf,
      link: "https://github.com/GodOfZap/Cloud-Fortress",
   },
@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     title: "Testing of cryptographic algorithms",
-    description: "Formal Testing of Algorithm through which the validity and integrity was accessed.",
+    description: "Formal Testing of Algorithm through which the validity and integrity are accessed.",
     image:sec,
      link: "https://docs.google.com/presentation/d/1dBK4kWiODB7epSuRjdVOAIFZfGHnTqhK/edit?usp=sharing&ouid=103701871477822752350&rtpof=true&sd=true",
   },
