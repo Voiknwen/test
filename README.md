@@ -35,7 +35,7 @@ After running the application, you can navigate through the portfolio to explore
 
 ## Credits
 
-A portion of this code was developed by teshank raut https://teshank.dev.
+A portion of this code was developed by teshank raut https://github.com/teshank2137.
 
 ## License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
