@@ -21,12 +21,6 @@ export const projects = [
         github: "https://github.com/GodOfZap/Student-Result-Management-System/",
   },
   {
-    title: "Portfolio v1",
-    description: "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
-    image:stonks,
-    github: "https://github.com/GodOfZap/Portfolio-v1",
-  },
-  {
     title: "Secure Cloud File Storage",
     description: "Built a node CLI interface and an web app which supports most cloud platforms.",
     image:cf,
@@ -43,4 +37,10 @@ export const projects = [
     image:sec,
      link: "https://docs.google.com/presentation/d/1dBK4kWiODB7epSuRjdVOAIFZfGHnTqhK/edit?usp=sharing&ouid=103701871477822752350&rtpof=true&sd=true",
   },
+  {
+    title: "Portfolio v1",
+    description: "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
+    image:stonks,
+    github: "https://github.com/GodOfZap/Portfolio-v1",
+  }
 ];
