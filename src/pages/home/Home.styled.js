@@ -21,21 +21,27 @@ export const DogContainer = styled.aside`
 `;
 
 export const TextContainer = styled.section`
-  grid-column: 2/ 8;
+  grid-column: 2/ 8; /* Increased grid column span */
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  @media screen and (max-width: 1204px) {
+  width: 100%;  /* Ensure the container is full width */
+  padding: 0 1rem;  /* Adjust horizontal padding */
+  
+  @media screen and (max-width: 1224px) {
     gap: 2.5rem;
+    padding: 0 1.5rem;  /* Increased padding for smaller screens */
   }
+
   @media screen and (max-width: 920px) {
     grid-column: 1/ 13;
     align-self: end;
-    padding-inline: 1rem;
+    padding-inline: 1.5rem; /* Increased padding */
     justify-self: center;
     align-self: center;
   }
+
   @media screen and (max-width: 480px) {
     gap: 1.5rem;
   }
@@ -50,6 +56,7 @@ export const Name = styled.h1`
   line-height: 1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   @media screen and (max-width: 1204px) {
     font-size: ${typeScale.display};
   }
@@ -102,6 +109,7 @@ export const Position = styled(PageHeaderStyled)`
   position: relative;
   color: ${blue["50"]};
   cursor: default;
+  width: 100%;  /* Ensure the width spans the entire container */
   .text {
     span {
       display: inline-block;
@@ -122,9 +130,11 @@ export const Position = styled(PageHeaderStyled)`
       }
     }
   }
+
   @media screen and (max-width: 1204px) {
     font-size: ${typeScale.title};
   }
+
   @media screen and (max-width: 480px) {
     font-size: ${typeScale.subtitle};
     width: 100%;
