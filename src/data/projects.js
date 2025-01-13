@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "Smart Result Management System",
     description:
-      "A web application in which the user can find there marks and the teacher's can give results.",
+      "A web application in which the user can find there marks and the teacher's can declare results.",
     image:srms,
         github: "https://github.com/GodOfZap/Student-Result-Management-System/",
   },
@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     title: "Offline mobile games",
-    description: "Built several offline mobile games like 2048, tic tac toe, snake games.",
+    description: "Built several offline mobile games like 2048, tic tac toe, snake game.",
     image:a2048,
   },
   {
