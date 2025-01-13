@@ -39,7 +39,7 @@ export const projects = [
   },
   {
     title: "Portfolio v1",
-    description: "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
+    description: "Personal Portfolio built using ReactJS, ThreeJS and CSS3.",
     image:stonks,
     github: "https://github.com/GodOfZap/Portfolio-v1",
   }
