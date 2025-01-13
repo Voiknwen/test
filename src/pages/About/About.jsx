@@ -49,10 +49,9 @@ export const About = () => {
       <Page header="About">
         <Text>
           <Paragraph>
-            I'm a passionate programmer, who is always looking for new
-            challenges to improve myself, also a team player who is open
-            to learn new things and help others.I love to play Chess
-            in my free time.
+            A dedicated programmer constantly seeking new challenges to grow and improve.
+            As a team player, always open to learning and supporting others. 
+            In my free time, enjoy playing chess.
           </Paragraph>
           <Educations>
             <AboutItem
