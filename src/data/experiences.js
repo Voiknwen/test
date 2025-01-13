@@ -21,7 +21,7 @@ export const experiences = [
     joined: "Jan'24",
     end: "July'24",
     title: "Cryptograhic Intern",
-    bio: "Brainstormed various ideas with mentors and teammates for the PoC. Assisted in developing website frontend and Developed libraries and maintained web applications using Spring focusing on both front-end and back-end",
+    bio: "Brainstormed various ideas with mentors and teammates for the PoC. Assisted in developing website frontend, created libraries and maintained web applications using Spring focusing on both front-end and back-end",
     color: green,
   },
   {
@@ -39,7 +39,7 @@ export const experiences = [
     joined: "Aug'21",
     end: "Sept'21",
     title: "In-Plant Trainee",
-    bio: "Worked on various roles in hardwares from assembling computer parts to troubleshooting hardware and software issues",
+    bio: "Worked on various roles in hardware from assembling computer parts to troubleshooting hardware and software issues",
     color: yellow,
   },
 ];
