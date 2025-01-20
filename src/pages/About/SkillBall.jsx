@@ -13,10 +13,12 @@ const Skills = () => {
     return b > 0.5 ? a * k : a * -1 * k;
   };
   const skills = [
+    ".Net",
     "Python",
     "JavaScript",
     "Java",
     "C++",
+    "C#",
     "HTML",
     "CSS",
     "SQL",
