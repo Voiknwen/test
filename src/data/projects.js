@@ -4,6 +4,7 @@ import ayush from "../assets/images/ayush.png";
 import cf from "../assets/images/cf.png";
 import a2048 from "../assets/images/a2048.jpg";
 import sec from "../assets/images/sec.png";
+import tab from "../assets/images/tab.png";
 
 export const projects = [
   {
@@ -42,5 +43,12 @@ export const projects = [
     description: "Personal Portfolio built using ReactJS, ThreeJS and CSS3.",
     image:stonks,
     github: "https://github.com/GodOfZap/Portfolio-v1",
+  },
+  {
+    title: "Auto Tab Reload",
+    description: "A browser extension which allows you to automatically refresh specific tabs at customizable intervals.",
+    image:tab,
+    link: "https://addons.mozilla.org/en-US/firefox/addon/auto-tab-reload/",
+    github: "https://github.com/GodOfZap/TabReloader",
   }
 ];
